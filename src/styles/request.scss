@@ -1,0 +1,212 @@
+.sort {
+  &-title {
+    font-weight: 500;
+    margin-right: 15px;
+  }
+  &-holder {
+    padding: 0 20px;
+    display: flex;
+    font-size: 0.9375em;
+    line-height: 1.2;
+  }
+  &-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 auto;
+    &-item {
+      margin: 0 0 0 20px;
+      padding-bottom: 13px;
+      color: $colorGreyFont;
+      cursor: pointer;
+      &.active {
+        color: $colorBlack;
+        border-bottom: 3px solid $colorRed;
+        &:hover {
+          cursor: default;
+        }
+      }
+    }
+  }
+}
+.request {
+  &-item {
+    border-bottom: 2px solid $colorGrey;
+    padding: 30px 20px 15px;
+    display: block;
+    &-text {
+      font-weight: 500;
+      font-size: 0.9375em;
+      line-height: 1.2;
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      &.tt-n {
+        text-transform: none;
+      }
+    }
+    &-num {
+      font-weight: bold;
+      line-height: 20px;
+    }
+    &-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+  }
+  &-status {
+    text-align: right;
+    margin-left: 10px;
+    font-size: 0.8125em;
+    line-height: 1.25;
+    padding: 2px 7px;
+    display: inline-block;
+    font-weight: 500;
+  }
+  &-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  &-holder {
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  &-name {
+    color: $colorGreyFont;
+    margin-bottom: 5px;
+    &-status {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  &-val {
+    font-weight: 600;
+    line-height: 1.25;
+    display: flex;
+    justify-content: space-between;
+    &.item-flex-holder {
+      align-items: center;
+    }
+    .item-img {
+      flex-shrink: 0;
+      margin: 0 15px 0 0;
+    }
+  }
+  &-file {
+    margin: 0 20px 10px 0;
+    max-width: 60px;
+    &-holder {
+      background-image: url("../images/line.svg");
+      background-repeat: repeat-x;
+      background-position: top;
+      padding: 10px 0 20px;
+    }
+    &-title {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+  }
+}
+.status {
+  &-new,
+  &-inwork {
+    color: $colorRed;
+    border: 1px solid $colorRed;
+  }
+  &-done {
+    color: $colorBlack;
+    border: 1px solid $colorBlack;
+  }
+  &-canceled {
+    border: 1px solid $colorGreyFont2;
+    color: $colorGreyFont2;
+  }
+}
+.discuss {
+  &-holder {
+    background: $colorGrey;
+    padding: 20px;
+  }
+  &-item {
+    padding: 15px 0;
+    & + .discuss-item {
+      background-image: url("../images/line.svg");
+      background-repeat: repeat-x;
+      background-position: top;
+    }
+  }
+  &-title {
+    font-size: 1.25em;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 0;
+  }
+  &-row {
+    margin: 5px 0;
+  }
+  &-name {
+    font-weight: 600;
+  }
+  &-date {
+    color: $colorGreyFont2;
+    font-size: 0.875em;
+    line-height: 1.2;
+  }
+}
+.user {
+  &-info {
+    background: $colorGrey;
+    padding: 20px;
+    .row {
+      margin-bottom: 10px;
+    }
+    &-holder {
+      padding: 10px 20px 30px;
+    }
+    .sub-title {
+      font-weight: 600;
+    }
+    .link {
+      &-red {
+        display: inline-flex;
+        margin-top: 10px;
+      }
+    }
+    form {
+      margin-top: 20px;
+    }
+  }
+  &-action {
+    &-holder {
+      background-image: url("../images/line.svg");
+      background-repeat: repeat-x;
+      background-position: top;
+      padding: 20px 0;
+    }
+    &-row {
+      margin-bottom: 20px;
+      line-height: 1.4;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &-page {
+    padding-bottom: 10px;
+    .user-info-holder {
+      padding-bottom: 0;
+    }
+  }
+}

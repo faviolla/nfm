@@ -1,0 +1,22 @@
+{
+  "short_name": "NFM",
+  "name": "NFM agro",
+  "icons": [
+    {
+      "src": "/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#cccccc",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "theme_color": "#000000"
+}

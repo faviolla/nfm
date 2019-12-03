@@ -1,0 +1,12 @@
+@import "~normalize-scss";
+@include normalize();
+@import "_variables";
+@import "base";
+@import "modal";
+@import "icon";
+@import "request";
+@import "form";
+@import "index";
+@import "catalog";
+@import "teaching";
+@import "repair";

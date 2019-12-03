@@ -1,0 +1,160 @@
+.icon {
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  &-arrow {
+    &-back {
+      width: 100%;
+      height: 100%;
+      background-image: url("../images/ic-arrow.svg");
+      &-white {
+        width: 100%;
+        height: 100%;
+        background-image: url("../images/ic-arrow-white.svg");
+      }
+    }
+  }
+  &-tractor {
+    width: 40px;
+    height: 28px;
+    background-image: url("../images/icons/ic-catalog.svg");
+    background-size: cover;
+    margin: -4px 7px -4px 0;
+  }
+  &-key {
+    width: 32px;
+    height: 29px;
+    background-image: url("../images/ic-order-services.svg");
+    background-size: cover;
+    margin-right: 7px;
+    margin-top: -8px;
+  }
+  &-send {
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/ic-send.svg");
+    margin-right: 6px;
+  }
+  &-file {
+    width: 20px;
+    height: 24px;
+    margin-right: 6px;
+    background-image: url("../images/ic-file.svg");
+  }
+  &-error {
+    position: absolute;
+    right: 13px;
+    top: 0;
+    width: 18px;
+    height: 45px;
+    margin-right: 6px;
+    background-image: url("../images/ic-error.svg");
+  }
+  &-success {
+    width: 53px;
+    height: 53px;
+    background-image: url("../images/ic-success.svg");
+  }
+  &.ic-star {
+    width: 18px;
+    height: 18px;
+    margin-left: 9px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../images/ic-star.svg");
+    &-active {
+      background-image: url("../images/ic-star-active.svg");
+    }
+  }
+  &-repair-part {
+    display: block;
+    text-indent: -9999px;
+    width: 32px;
+    height: 32px;
+    background-image: url("../images/ic-spare-part.svg");
+    background-size: contain;
+    margin: -5px 6px -5px 0;
+  }
+  &-basket {
+    background-image: url("../images/ic-basket.svg");
+    width: 30px;
+    height: 28px;
+    &-grey {
+      background-image: url("../images/icons/ic-basket-grey.svg");
+      width: 58px;
+      height: 58px;
+    }
+  }
+  &-qr {
+    background-image: url("../images/icons/ic-qrcode.svg");
+    width: 100%;
+    height: 100%;
+  }
+  &-writing {
+    background-image: url("../images/icons/ic-writing.svg");
+    width: 22px;
+    height: 22px;
+  }
+  &-teachers {
+    background-image: url("../images/icons/ic-teachers.svg");
+    width: 16px;
+    height: 19px;
+  }
+  &-course-orders {
+    background-image: url("../images/icons/ic-course-orders.svg");
+    width: 16px;
+    height: 19px;
+  }
+  &-search {
+    background-image: url("../images/icons/ic-search.svg");
+    width: 66px;
+    height: 66px;
+  }
+  &-close {
+    background-image: url("../images/ic-close-black.svg");
+    min-width: 16px;
+    min-height: 16px;
+    width: 100%;
+    height: 100%;
+    &-remove {
+      width: 14px;
+      height: 14px;
+      background-image: url("../images/icons/ic-close-red.svg");
+    }
+  }
+  &-edit {
+    background-image: url("../images/icons/ic-edit.svg");
+    width: 20px;
+    height: 19px;
+    margin-right: 5px;
+    text-indent: -9999px;
+  }
+  &-change-pass {
+    background-image: url("../images/icons/ic-change-pass.svg");
+    width: 22px;
+    height: 17px;
+    margin-right: 5px;
+    text-indent: -9999px;
+  }
+  &-pass {
+    background-image: url("../images/icons/ic-pass-show.svg");
+    width: 36px;
+    height: 45px;
+    background-position: left center;
+    position: absolute;
+    right: 0;
+
+    &.pass-hide {
+      background-image: url("../images/icons/ic-pass-hide.svg");
+    }
+  }
+}
+.ic-star {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  background-image: url("../images/ic-star.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}

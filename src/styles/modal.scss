@@ -1,0 +1,48 @@
+.v--modal {
+  text-align: center;
+  border-radius: 0;
+  padding: 20px 25px;
+  box-shadow: $boxShadowModal;
+  h3 {
+    font-size: 1em;
+    line-height: 1.25;
+    font-weight: bold;
+    margin: 0 0 20px;
+  }
+  .modal-text {
+    margin-bottom: 20px;
+  }
+  .link-red {
+    font-weight: 500;
+  }
+  &-overlay {
+    z-index: 1000;
+  }
+}
+.modal {
+  &-buttons {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .btn-main {
+      padding-left: 36px;
+      padding-right: 36px;
+      & + .btn-link {
+        margin-top: 20px;
+      }
+    }
+  }
+  &-title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 640px) {
+  .v--modal {
+    max-width: calc(100% - 40px);
+    left: 20px !important;
+  }
+}
